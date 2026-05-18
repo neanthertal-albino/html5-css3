@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+p {
+    text-align: left;
+    text-indent: 10pt;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.tit {
+    text-align: center;
+    margin: 50px;
+}
+
+.X {
+    height: 300px;
+    width: 250px;
+    margin: 5px;
+    padding: 50px;
+}
+
+aside {
+    padding: 20px;
+    width: 1000px;
+    float: right;
+    margin: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+ul {
+    padding: 20px;
+    width: 1000px;
+    margin: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
