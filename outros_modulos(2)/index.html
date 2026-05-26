@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Células</title>
     <style>
-        td {
+        th, td {
             border: 1px solid black;
             padding: 10px;
             width: 300px;
@@ -14,6 +14,24 @@
 
         table {
             margin: 50px 0px;
+            border-collapse: collapse;
+        }
+
+        th, .notaviado {
+            background-color: gray;
+            color: white;
+        }
+
+        .med {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+        }
+
+        .normal {
+            background-color: white;
+            color: black;
+            font-weight: lighter;
         }
     </style>
 </head>
@@ -72,6 +90,65 @@
         </tr>
         <tr>
             <td colspan="4">N</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th rowspan="2" scope="col">ÁREAS</th>
+            <th rowspan="2" scope="col">DICIPLINAS</th>
+            <th colspan="2" scope="colgroup">NOTAS</th>
+            <th rowspan="2" scope="col">MÉDIA</th>
+        </tr>
+        <tr>
+            <th scope="col">NOTA 1</th>
+            <th scope="col">NOTA 2</th>
+        </tr>
+        <tr>
+            <th rowspan="4" class="med" scope="rowgroup">EXATAS</th>
+            <th class="normal" scope="row">MATEMÁTICA</th>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>  
+        </tr>
+        <tr>
+            <th class="normal" scope="row">QUÍMICA</th>
+            <td>0.0</td>
+            <td>0.0</td>  
+            <td>0.0</td>  
+        </tr>
+        <tr>
+            <th class="normal" scope="row">FÍSICA</th>
+            <td>0.0</td>  
+            <td>0.0</td>  
+            <td>0.0</td>  
+        </tr>
+        <tr>
+            <th class="normal" scope="row">BIOLOGIA</th>
+            <td>0.0</td>  
+            <td>0.0</td>  
+            <td>0.0</td>  
+        </tr>
+        <tr>
+            <th colspan="4" scope="row">MÉDIA DE EXATAS</th>
+            <td class="notaviado">0.0</td>  
+        </tr>
+        <tr>
+            <th rowspan="2" class="med" scope="rowgroup">HUMANAS</th>
+            <th class="normal" scope="row">GEOGRAFIA</th>
+            <td>0.0</td>  
+            <td>0.0</td>  
+            <td>0.0</td>  
+        </tr>
+        <tr>
+            <th class="normal" scope="row">HISTÓRIA</th>
+            <td>0.0</td>  
+            <td>0.0</td>  
+            <td>0.0</td>  
+        </tr>
+        <tr>
+            <th colspan="4" scope="row">MÉDIA DE HUMANAS</th>
+            <td class="notaviado">0.0</td>  
         </tr>
     </table>
 </body>
